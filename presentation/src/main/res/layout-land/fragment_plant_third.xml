@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.neversaydie.andreii.growplants.presentation.screen.game.plantthird.PlantThirdViewModel"/>
+
+    </data>
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_third_plant_main_background">
+
+
+        <TextView
+            android:id="@+id/textView_third"
+            android:layout_width="107dp"
+            android:layout_height="21dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="@string/growth"
+            android:fontFamily="@font/paddis_handwritten"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_next_water_third"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/paddis_handwritten"
+            android:text="@string/next_water"
+            android:textColor="#edea0a"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar_growth_third" />
+
+        <TextView
+            android:id="@+id/textView_plant_is_grow_third"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:fontFamily="@font/paddis_handwritten"
+            android:text="@string/plant_is_grow"
+            android:textColor="#e9390d"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar_growth_third" />
+
+
+        <ImageView
+            android:id="@+id/imageView_leika_third"
+            android:layout_width="200dp"
+            android:layout_height="196dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar_growth_third" />
+
+        <ImageView
+            android:id="@+id/imageView_plant_third"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/one_plant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_game_water_third"
+            android:layout_width="95dp"
+            android:layout_height="81dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:background="#1625cf"
+            android:text="@string/to_water"
+            android:fontFamily="@font/paddis_handwritten"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_to_the_garden_third"
+            android:layout_width="150dp"
+            android:layout_height="81dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#e20f0f"
+            android:text="@string/to_garden"
+            android:fontFamily="@font/paddis_handwritten"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_growth_third"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="288dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:max="650"
+            android:progress="@{viewModel.clickProgressThirdPlant}"
+            android:progressDrawable="@drawable/vertical_progress_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_third" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/water_one"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_two"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_three"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_four"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_five"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_six"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_seven"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_eight"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_zero"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/water_zero"
+        android:duration="200" />
+</animation-list>

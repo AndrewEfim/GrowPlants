@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/leika_three"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_two"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_one"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_main"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_three"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_two"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_one"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_main"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_four"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_four"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/leika_four"
+        android:duration="200" />
+</animation-list>

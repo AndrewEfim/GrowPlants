@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Расти Растение</string>
+    <string name="to_water">Полить</string>
+    <string name="to_play">Играть</string>
+    <string name="new_plant">Новое Растение</string>
+    <string name="new_game">Все с начала</string>
+    <string name="to_garden">В Сад</string>
+    <string name="plant_grain">Посадить зерно</string>
+    <string name="plant_is_grow">Поздравляем растение выросло!</string>
+    <string name="next_water">Следующий полив завтра</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2168756955488044/5193955852</string>
+    <string name="growth">Рост</string>
+    <string name="play">Играть</string>
+</resources>

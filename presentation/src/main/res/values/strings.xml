@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GrowPlants</string>
+    <string name="to_water">Water</string>
+    <string name="to_play">Play</string>
+    <string name="new_plant">New Plant</string>
+    <string name="new_game">New Game</string>
+    <string name="to_garden">To The Garden</string>
+    <string name="plant_grain">Plant grain</string>
+    <string name="plant_is_grow">Congratulations to the plant has grown!</string>
+    <string name="next_water">Next watering tomorrow</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2168756955488044/5193955852</string>
+    <string name="growth">Growth</string>
+    <string name="play">Play</string>
+
+</resources>
